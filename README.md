@@ -21,6 +21,9 @@ pip install langchain
 pip install langchain_ollama
 ```
 ```bash
+pip install chainlit
+```
+```bash
 pip install langchain_community
 ```
 ```bash
@@ -33,8 +36,10 @@ pip install langgraph
 pip install pydantic
 ```
 ```bash
-pip install chainlit
+pip install fastapi[standard]
 ```
+
+Некоторые фреймворки могут не использоваться в основной части.
 
 ## Запуск веб-страницы с LLM
 

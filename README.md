@@ -54,11 +54,8 @@ ollama run mistral
 # Запустить Ollama сервер (в отдельном терминале)
 ollama serve
 
-# Перейдем в директорию, где находится код
-cd main
-
 # Запустить Chainlit веб-страницу (в отдельном терминале)
-chainlit run ChatProfileWeb.py -w
+chainlit run main/ChatProfileWeb.py -w
 ```
 После переходим на `http://127.0.0.1:8000`
 

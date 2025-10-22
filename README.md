@@ -65,3 +65,16 @@ fastapi dev API
 ```  
 После переходим на `http://127.0.0.1:8000`
 Встроенная документация: `http://127.0.0.1:8000/docs#/`
+
+## Другое
+Запуск простейшего скрипта через Docker. Перед этим нужно установить его самого 
+Я советую начать с официальной документации по установке:
+
+Ссылка для Mac https://docs.docker.com/desktop/setup/install/mac-install/
+Ссылка для Windows https://docs.docker.com/desktop/setup/install/windows-install/
+Ссылка для Linux https://docs.docker.com/desktop/setup/install/linux/
+
+```bash
+docker build -t fastapi-uv .
+docker run -p 8000:8000 fastapi-uv
+```  
